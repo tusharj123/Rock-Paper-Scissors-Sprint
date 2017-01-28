@@ -52,8 +52,8 @@ def rps(n, x, y):
 
     if mode == 2:
         print('Player 1: ' + str(x) + ' Player 2: ' + str(y))
-        user1 = str(input('PLAYER 1: Rock, Paper or Scissors?')).lower()
-        user2 = str(input('PLAYER 2: Rock, Paper or Scissors?')).lower()
+        user1 = str(input('PLAYER 1: R, P or S?')).lower()
+        user2 = str(input('PLAYER 2: R, P or S?')).lower()
 
         if user1 == 'R' or user1 == 'r':
             user1 = 'rock'
