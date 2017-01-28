@@ -1,11 +1,10 @@
-#import random module
+#tushar jain
+# #import random module
 import random
 #main function
 def main():
     #intro message
-    numbe = user_guy()
-    #intro message
-    print("Let's play 'Rock, Paper, Scissors'!")
+    print("Let's play 'Rock, Paper, Scissors!")
     #call the user's guess function
     number = user_guess()
     #call the computer's number function
@@ -26,11 +25,6 @@ def computer_number():
         print("Computer chooses scissors")
     #return the number
     return num
-
-def user_guy():
-    guess = input()
-    guess = input ("Do you want to play player vs player or player vs computer")
-    if i
 
 #user_guess function
 def user_guess():
